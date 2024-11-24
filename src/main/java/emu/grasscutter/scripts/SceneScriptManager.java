@@ -508,7 +508,7 @@ public class SceneScriptManager {
                             block -> {
                                 block.load(sceneId, meta.context);
                                 if (block.groups == null) {
-                                       return;
+                                    return;
                                 }
                                 block.groups.values().stream()
                                         .filter(g -> !g.dynamic_load)
